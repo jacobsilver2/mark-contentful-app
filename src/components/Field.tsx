@@ -106,7 +106,7 @@ const Field = (props: FieldProps) => {
         onChange={(e) => updateFieldValueSelect(e)}
       >
         {allEntryValues &&
-          allEntryValues.map((v) => (
+          allEntryValues.sort.map((v) => (
             <Option value={v} key={v}>
               {v}
             </Option>
